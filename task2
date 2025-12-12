@@ -1,0 +1,106 @@
+# Data Visualization & Storytelling — Project
+
+
+**Objective:** Create visualizations that convey a compelling story from a dataset (Tableau / Power BI).
+
+
+## Contents
+- `data/` — raw and processed datasets
+- `tableau/` or `powerbi/` — workbook files and exported images/PDFs
+- `notebooks/` — optional EDA or data-transform scripts
+- `deliverables/` — final Storyboard.pdf and Visual-Report.pdf
+
+
+## How to reproduce
+1. Open `data/raw/superstore.csv` and inspect `data/data-dictionary.md` for column meanings.
+2. Run the notebooks (if provided) to reproduce cleaned data saved to `data/processed/`.
+3. Open the workbook file in Tableau (`tableau/workbook.twbx`) or Power BI (`powerbi/report.pbix`).
+4. Export dashboards to PDF and PNG using the "Export" or "Print to PDF" option.
+
+
+## Deliverables (what's included)
+- `deliverables/Storyboard.pdf` — 1–2 page narrative with context, key charts, and 3 action items.
+- `deliverables/Visual-Report.pdf` — full multi-page report (screenshots or printed PDF of dashboard).
+- `tableau/exports/` or `powerbi/exports/` — screenshots used in README.
+
+
+## Design & storytelling checklist
+- Use the right chart for the question (trend = line, distribution = histogram, part-to-whole = bar/stacked with caution).
+- Avoid chart junk: keep color palette minimal (2–4 colors), use clear labels, and annotate key points.
+- Add a title + one-line insight for every chart.
+- Focus on business insights: what to do next, who is impacted, and the confidence in the insight.
+
+
+## Example storyboard (short)
+1. **Context & question** — What business problem are we answering?
+2. **Top-level KPI** — single chart showing the headline metric.
+3. **Drivers** — charts that explain what is driving the KPI.
+4. **Recommendations** — 3 specific next steps based on data.
+
+
+## How I exported final PDFs (steps you can follow)
+### Tableau
+- File → Export as PowerPoint or File → Print to PDF.
+- Export each dashboard as PNG (Dashboard → Image).
+
+
+### Power BI Desktop
+- File → Export → PDF (or use the "Export current report page" to PNG via the ellipsis on a page).
+- To get high-resolution images, use the built-in export rather than screenshots.
+
+
+## Naming conventions
+- Keep file names short and descriptive (e.g. `2025-Q4-Sales-Dashboard.pdf`).
+- Use `snake_case` or `kebab-case` consistently.
+
+
+## Useful git workflow
+```bash
+git init
+git add .
+git commit -m "Initial commit: project structure and sample data"
+# create repo on GitHub and push
+git remote add origin <your-repo-url>
+git push -u origin main
+---
+
+
+## Quick Storyboard — what to include on your 1–2 page Storyboard.pdf
+- Title, date, author
+- One-line summary (the headline insight)
+- 3 supporting charts (each with 1-line caption + why it matters)
+- 3 recommended actions (who, what, when)
+
+
+---
+
+
+## Short tips for chart choices (common scenarios)
+- Time series (sales over time): line chart with moving average and annotated peaks.
+- Comparison across categories: horizontal bar chart (sorted descending).
+- Distribution of numeric variable: histogram or boxplot with outliers called out.
+- Relationship between two variables: scatterplot + trend line; if many points, add density or hexbin.
+- Part-to-whole (market share): consider bar or treemap; avoid 100% stacked bars unless necessary.
+
+
+---
+
+
+## Example GitHub README images and assets
+- Add `images/thumbnail.png` (600×300) for repo display.
+- Add a small `README_assets` folder with export images used in README.
+
+
+---
+
+
+## Final deliverable checklist (before zipping/uploading)
+- [ ] `README.md` filled and proofread
+- [ ] All raw and processed data included or data-download instructions added
+- [ ] Workbook file saved (`.twbx` or `.pbix`)
+- [ ] `deliverables/Visual-Report.pdf` and `deliverables/Storyboard.pdf` present
+- [ ] Exports/screenshots in `tableau/exports/` or `powerbi/exports/`
+- [ ] LICENSE added
+
+
+---
