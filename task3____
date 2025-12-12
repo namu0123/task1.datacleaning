@@ -1,0 +1,86 @@
+Task-3-SQL-Data-Analysis/
+│
+├── README.md
+│
+├── sql_queries/
+│   ├── ecommerce_analysis.sql
+│   └── screenshots/
+│       ├── query1_output.png
+│       ├── query2_output.png
+│       ├── query3_output.png
+│       └── query4_output.png
+│
+└── dataset/
+    └── ecommerce_sample.csv
+# Task 3: SQL for Data Analysis
+
+## 📌 Objective
+Use SQL queries to extract and analyze data from an eCommerce database.  
+This task demonstrates the use of:
+- SELECT, WHERE, ORDER BY, GROUP BY
+- JOINS (INNER JOIN)
+- Aggregate functions (SUM, AVG)
+- Subqueries
+- Views
+
+---
+
+## 📂 Folder Structure
+- `sql_queries/` → Contains all SQL queries.
+- `sql_queries/screenshots/` → Contains output screenshots.
+- `dataset/` → Contains the sample dataset used.
+
+---
+
+## 🗂 Files Included
+
+### 1. **ecommerce_analysis.sql**
+Contains:
+- Basic SELECT queries  
+- Filtering with WHERE  
+- Sorting with ORDER BY  
+- Grouping with GROUP BY  
+- JOINS  
+- Aggregate queries  
+- Subqueries  
+- Views creation  
+
+### 2. **Screenshots Folder**
+Includes:
+- Query outputs  
+- View results  
+- Join output
+
+### 3. **Dataset**
+A simple sample CSV file to load into MySQL.
+
+---
+
+## 🖥 Tools Used
+- **MySQL Editor / MySQL Workbench / Online MySQL Editor**
+- Dataset: `ecommerce_sample.csv`
+
+---
+
+## 🚀 Steps Performed
+1. Created `orders`, `customers`, and `products` tables.
+2. Inserted sample data.
+3. Ran queries for:
+   - Total sales
+   - Customer-wise total amount
+   - Product-level order count
+   - Highest-value order using subquery
+4. Created a SQL view for repeated use:
+
+---
+
+## ✅ Output
+Screenshots of all query results are inside:
+
+
+
+---
+
+## 📌 Author
+Submitted by: **Namarta**
+
