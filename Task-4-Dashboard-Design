@@ -1,0 +1,40 @@
+Task-4-Dashboard-Design/
+│
+├── Dashboard/
+│   ├── Task_4_Dashboard.pbix
+│   └── Dashboard_Screenshot.png
+│
+├── PPT/
+│   └── Task_4_Dashboard_Summary.pptx
+│
+├── Dataset/
+│   └── Superstore.csv
+│
+└── README.md
+# Task 4: Dashboard Design
+
+## Objective
+To design an interactive dashboard for business stakeholders using Power BI.
+
+## Tool Used
+- Power BI
+
+## Dataset
+- Superstore Sales Dataset
+
+## Dashboard Features
+- Sales and profit overview
+- Region-wise and category-wise analysis
+- Monthly sales trends
+- Top 5 products by sales
+- Interactive slicers for filtering
+
+## Deliverables
+- Power BI Dashboard
+- Dashboard Screenshots
+- PPT Summary
+
+## Outcome
+The dashboard provides clear and interactive business insights to support decision-making.
+
+
