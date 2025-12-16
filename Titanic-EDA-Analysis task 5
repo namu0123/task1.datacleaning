@@ -1,0 +1,47 @@
+# Titanic Exploratory Data Analysis (EDA)
+
+## 📌 Objective
+Perform Exploratory Data Analysis (EDA) on the Titanic dataset to identify patterns, trends, and anomalies using statistical and visual techniques.
+
+## 🛠 Tools & Technologies
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+
+## 📂 Dataset
+Titanic dataset (loaded using Seaborn library)
+
+## 🔍 EDA Steps Performed
+- Data loading and inspection
+- Handling missing values
+- Statistical summary using `.describe()`
+- Value counts for categorical variables
+- Univariate analysis (histograms, boxplots)
+- Bivariate analysis (countplots, scatterplots)
+- Multivariate analysis (pairplot, heatmap)
+
+## 📈 Key Insights
+- Females had a higher survival rate than males
+- First class passengers survived more than others
+- Higher fare increased chances of survival
+- Most deaths occurred in third class
+
+## 📁 Repository Structure
+- `notebook/` → Jupyter notebook for EDA
+- `report/` → PDF summary of findings
+- `images/` → Visualizations
+- `data/` → Dataset information
+requirment tools:-
+pandas
+matplotlib
+seaborn
+notebook
+
+
+## ✅ Outcome
+Improved skills in identifying patterns, trends, and anomalies using Exploratory Data Analysis.
+
+## 👩‍💻 Author
+Namarta
